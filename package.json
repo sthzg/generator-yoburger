@@ -1,10 +1,12 @@
 {
   "name": "generator-yoburger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yo Burger - Tasty Stuff for Hungry Testers",
   "main": "generators/app/index.js",
   "scripts": {
-    "test": "test"
+    "release:major": "npm version major && npm publish && git push --follow-tags",
+    "release:minor": "npm version minor && npm publish && git push --follow-tags",
+    "release:patch": "npm version patch && npm publish && git push --follow-tags"
   },
   "author": "sthzg <sthzgvie@gmail.com>",
   "license": "MIT",
@@ -13,10 +15,5 @@
   },
   "files": [
     "generators/app"
-  ],
-  "scripts": {
-    "release:major": "npm version major && npm publish && git push --follow-tags",
-    "release:minor": "npm version minor && npm publish && git push --follow-tags",
-    "release:patch": "npm version patch && npm publish && git push --follow-tags"
-  }
+  ]
 }
