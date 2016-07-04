@@ -1,0 +1,17 @@
+{
+  "name": "generator-yoburger",
+  "version": "0.0.1",
+  "description": "Yo Burger - Tasty Stuff for Hungry Testers",
+  "main": "generators/app/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "sthzg <sthzgvie@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^0.23.4"
+  },
+  "files": [
+    "generators/app"
+  ]
+}
