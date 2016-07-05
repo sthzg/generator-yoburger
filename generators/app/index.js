@@ -16,7 +16,6 @@ class Generator extends generators.Base {
   get writing() {
     return {
       output: function() {
-        this.log(this.templatePath(), this.destinationPath());
         this.fs.copy(this.templatePath(), this.destinationPath());
       }
     }
